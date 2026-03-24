@@ -1,0 +1,107 @@
+Question 1 : Copycat
+Problem Statement :
+
+Ashish was copying from Rahit in the exam. So, Rahit told him to change the answers a little bit so that the examiner cannot find the fraud. But silly Ashish in the way started to change all the answers that were needed. He shuffled the letters in each word in a way where the maximum number of letters were misplaced.
+
+For a given word, find the maximum difference that Ashish can generate between his answer and Rahit’s answer.
+
+Suppose Rahit wrote “car” for an answer, Ashish can write “acr” with difference 2, or “arc” with differnece 3.
+
+Note That: The letters are all in lowercase.
+
+Input Format:
+
+First line containing an integer n, number of words.
+
+Then, n numbers of lines as the query words.
+
+Output:
+
+N number of lines with an integer each denoting possible maximum difference.
+
+Sample Input:
+
+4
+
+abababa
+
+bbj
+
+kj
+
+kk
+
+Sample Output:
+
+6
+
+2
+
+2
+
+0
+
+--------------------------------------
+
+Question 2 :
+New Number System
+Problem Statement  :
+
+Here is about to introduce a new kind of number system. Where instead of 10 digits there is 20, from a to t, all in small. Now a means 1, b means 2 and t means 20, thenn aa means 21. Now for  a new number you have to print the decimal form it.
+
+Note that the letters in the input string will be lower case and from a to t. 
+
+Input Format:
+
+Single line containing the string of new number system’s number
+
+Output Format:
+
+Single line denoting the integer with the same decimal value as the input string
+
+Sample input 1: e
+
+Sample Output: 5
+
+Sample  Input 2: ac
+
+Sample Output: 23
+----------------------------------
+
+Question 3 : Seating Arrangement in Exam Hall
+ 
+
+Problem Statement  :
+
+Semester exams are going on for university students. Examiners noticed that a group of people are trying to cheat. They marked students of that group as ‘1’ and students of another group ( who are not cheating ) as ‘0’ 
+
+We can reduce cheating by not allowing students from group 1 to sit together, means no two students from group 1 can sit together. Seatings are marked using above conditions. Your task is to give the seating placement of nth possibility Possibility order from 1 to 10 is given below
+
+[1  10  100  101  1000  1001  1010  10000  10001  10010]
+
+Sample input :
+
+3 → number of test cases
+
+4
+
+6
+
+9
+
+Sample output :
+
+101
+
+1001
+
+10001
+
+Explanation :
+
+4th possibility is 101 
+
+6th possibility is 1001
+
+9th possibility is 10001
+
