@@ -1,0 +1,13 @@
+import java.util.*;
+public class hashmapop {
+    public static void main(String[] args) {
+        HashMap<Integer, String> map = new HashMap<>();
+
+        map.put(3,"C");
+        map.put(1,"A");
+        map.put(2, "B");
+        System.out.println("Elements in hash Map are :  " +map);
+
+    }
+    
+}
