@@ -21,7 +21,6 @@ public class descendingindb {
 
                 System.out.println(id + " " + name + " " + sub);
             }
-
         } catch (Exception e) {
             System.out.println(e);
         }
