@@ -29,7 +29,6 @@ public class doublelinkedlist1 {
             System.out.println(temp.data);
             temp = temp.next;  // FIXED
         }
-
         System.out.println("Backward traversal");
         temp = third;
         while (temp != null) {
